@@ -4,13 +4,10 @@ app = Flask(__name__)
 
 @app.route("/")
 def welcome():
-    return "Yoyofffo"
+    return "Welcome to my API"
 
 
 
-@app.route("/home")
-def home():
-    return "this is home"
 
 
 
